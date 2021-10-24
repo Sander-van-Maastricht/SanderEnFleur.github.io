@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Voor mijn liefje</title>
+</head>
+<body>
+    <main class="linearWrapper" >
+        <section class="whiteWrapper" >
+            <h1>Totdat je echt mijn meisje bent💕</h1>
+                <!-- Display the countdown timer in an element -->
+            <div id="demo" class="countdown" ></div>
+            <div class="horizontalLine" ></div>
+            <div class="textContent" >
+                <h2>Lieve schat</h2>
+                <p>Wie had dat gedacht... jij en ik samen, ik kon er nog geen eens over dromen, zo onwerkelijk🙈 Maar het is dalijk toch echt zo ver, jij en ik voor de rest van ons leven. Wat gaan we samen leuke dingen doen, lekker op vakantie, samen uit eten, samen en koken en heel veel ja echt heel veel samen zoenen😊💕 Nou na al dat wachten mag dat ook wel...</p>
+            </div>
+            <img src="./images/SF2.jpeg" class="fullWidthImage" >
+            <div class="textContentLeft" >
+                <h2>Mijn meisje...</h2>
+                <p>Ik ben zo blij met jou... Ik heb het al vaker gezegd maar zeg het nu gewoon lekker weer. Jij bent echt mijn droom meisje!🦋💕 Je bent lief, knap, schattig, beetje stout, sociaal, eerlijk, super ondernemend en heeft een sterke relatie met God.😚😘 Ik ben echt heel heel heel blij dat jij dalijk mijn meisje wilt zijn... Weet dat ik echt super trots op je ben en dat ik dat ook altijd zal blijven!</p>
+            </div>
+            <img src="./images/SF9.jpeg" class="fullWidthImage" >
+            <div class="textContent" >
+                <h2>Allerliefste</h2>
+                <p>Ik heb zoveel respect en ik vind het gewoon zo knap dat jij 6 maanden wacht op mij. Het is niet altijd makkelijk, dat vind ik zelf ook. Maar ik vind het zo knap dat jij dat gewoon doet voor mij. Ik denk dat we hierdoor al vanaf het begin een super sterke band hebben met elkaar en dat we echt een koppel zijn wat een drievoudig snoer vormt💑</p>
+            </div>
+            <div class="horizontalLine" ></div>
+            <div class="videoBlock" >
+                <div class="videoSection" >
+                    <video src="./media/23-8-2021.mp4" class="videoPinkBorder" controls></video>
+                    <video src="./media/27-7-2021 (1).MP4" class="videoPinkBorder" controls></video>
+                    <video src="./media/31-8-2021.mp4" class="videoPinkBorder" controls></video>
+                </div>
+                <div class="videoSection" >
+                    <video src="./media/23-9-2021.mp4" class="videoPinkBorder" controls></video>
+                    <video src="./media/24-9-2021.mp4" class="videoPinkBorder" controls></video>
+                    <video src="./media/30-9-2021 (1).MP4" class="videoPinkBorder" controls></video>
+                </div>
+            </div>
+            <div class="horizontalLine" ></div>
+            <div class="imagesBlock" >
+                <img class="footerImages" src="./images/SF8.jpeg" alt="">
+                <img class="footerImages" src="./images/SF14.jpeg" alt="">
+                <img class="footerImages" src="./images/SF15.JPG" alt="">
+            </div>
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-8f5efaf8-6223-487f-af18-b64b4450f210"></div>
+            <h3>Ik hou van je lieverd💕</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 1, 2022 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = "<div class='pinkTimer' ><p>" + days + "d" + "</div></p>" + " : " + "<div><p>" + hours + "h" + "</div></p>" +" : " + "<div><p>"
+  + minutes + "m" +  "</div></p>" + " : " + "<div><p>" + seconds + "s" +  "</div></p>";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+</script>
+        </section>
+    </main>
+</body>
+</html>
