@@ -99,6 +99,34 @@ p {
   justify-content: center;
 }
 
+@media screen and (max-width: 1200px) {
+  h1 {
+    width: 90%;
+  }
+  .countdown {
+    height: 75px;
+    font-size: 3rem;
+  }
+  .countdown p {
+    font-size: 3rem;
+  }
+  .countdown div {
+    width: 100px;
+  }
+  .textContent {
+    padding: 0 50px !important;
+  }
+  .textContentLeft {
+    padding: 0 50px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 75%;
+  }
+}
+
 .pinkTimer {
   background: linear-gradient(
     98deg,
